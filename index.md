@@ -2,122 +2,44 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# [](#header-1)Welcome to Timofonic's Programming Adventure
 
-[Link to another page](another-page).
+This is a simple site using a simple framework. It's just a way to remind myself certain tasks and show it to others.
 
-There should be whitespace between paragraphs.
+## [](#header-2)Purpose of this site
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+This simple site will serve as a personal presentation and a way to how my exercises and projects to my course teachers.
 
-# [](#header-1)Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### [](#header-3)A little example
 
-## [](#header-2)Header 2
+```java
+/* Text coloring:
+ * It shows some words in the colors as their meaning.
+ * @author Timofonic
+ */
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+package com.timofonic;
 
-### [](#header-3)Header 3
+public class Colors {
+    public static void main(String[] args) {
+	// write your code here
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+	String red = "\033[31m";
+    String green = "\033[32m";
+    String orange = "\033[33m";
+    String blue = "\033[34m";
+    String purple = "\033[35m";
+    String white = "\033[37m";
+
+    System.out.print(orange + "tangerine" + green + " herb");
+    System.out.print(orange + " grasshopper" + red + " tomato");
+    System.out.print(white + " sheets" + blue + " sky");
+    System.out.print(purple + " Nazarene" + blue + " sea");
+    }
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+More soon, I have lots of things to do.
 
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Thanks for watching! ;)
